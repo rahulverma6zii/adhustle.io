@@ -1,0 +1,66 @@
+.welcome-animation {
+   
+    -webkit-animation: bounceHero 5s ease-in-out infinite;
+    
+}
+.welcome-thumb-1{
+    position: absolute;
+    left:20%;
+    animation: bounce 2s  ease-in-out infinite;
+}
+.welcome-thumb-2{
+    position: absolute;
+    top: 40%;
+}
+.welcome-thumb-3{
+    position: absolute;
+    top: 37%;
+    left:35%;
+}
+.welcome-thumb-4{
+    position: absolute;
+    top: 100%;
+    left:70%;
+    animation: bounce4  2s  ease-in infinite;
+};
+
+.welcome-thumb-5{
+    position: absolute;
+    left: 20%;
+    top: 5px;
+    animation: bounce5 2s  ease-in infinite;
+}
+.welcome-thumb-1{}
+.about-us-image{
+   
+}
+@keyframes about{
+
+}
+@keyframes bounce{
+    from{
+        top: 1%;
+        
+    }
+    to{
+        top:5%;
+    }
+}
+@keyframes bounce5{
+    from{
+        top: 5%;
+        
+    }
+    to{
+        top:1%;
+    }
+}
+@keyframes bounce4{
+    from{
+        top: 95%;
+        
+    }
+    to{
+        top:90%;
+    }
+}
